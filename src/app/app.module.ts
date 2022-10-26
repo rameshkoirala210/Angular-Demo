@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { UserSettingaFormComponent } from './user-settinga-form/user-settinga-form.component';
+import { UserSettingsFormComponent } from './user-settings-form/user-settings-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserSettingaFormComponent
+    UserSettingaFormComponent,
+    UserSettingsFormComponent
   ],
   imports: [
     BrowserModule,
